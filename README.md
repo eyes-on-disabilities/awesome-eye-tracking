@@ -10,7 +10,7 @@ This document is the result of our research on the eye- and head-tracking stuff 
 
 ### On-Screen Keyboards
 
-https://github.com/OptiKey/OptiKey ⭐ *Personal Highlight* ⭐
+https://github.com/OptiKey/OptiKey ⭐ *Personal Highlight* ⭐<br>
 OptiKey is an open-source on-screen keyboard designed for eye-tracking, offering layouts from simple phrase cards to full keyboards. It supports voice output, mouse control, and various eye-trackers, with plugins like one for playing Minecraft. It’s the ideal on-screen keyboard for our needs.
 - 4.3k stars, last commit 3 months ago, 65 contributors
 - On-Screen Keyboard with various modes, optimized for people with disabilities
@@ -31,14 +31,14 @@ https://github.com/pasha-liubetski/LINKa.look-windows
 - Not tested yet
 
 ### Wearable-based Eye Trackers
-https://github.com/pupil-labs/pupil ⭐ *Personal Highlight* ⭐
+https://github.com/pupil-labs/pupil ⭐ *Personal Highlight* ⭐<br>
 Pupil-Labs produces open-source eye-tracking software and hardware. Their software was very useful for our research, though likely too complex for end-users. It allowed us to experiment with different cameras and build our first OptiKey plugin. However, their products are costly (starting at 3k€), and their DIY headset documentation lacks detail, so we sought alternative models. Still we are very happy that we found this software.
 - 1.4k stars, last commit 7 months ago, 42 contributors
 - Eye-tracking for wearables. Very promising
 - Python, OpenCV
 - ✔️ Tested, works exceptionally well. Requires some initial, somewhat tedious configuration. More details in the <a href="#Pupil-Lab">Pupil-Lab</a> section.
 
-https://github.com/EyeTrackVR/EyeTrackVR ⭐ *Personal Highlight* ⭐
+https://github.com/EyeTrackVR/EyeTrackVR ⭐ *Personal Highlight* ⭐<br>
 EyeTrackVR offers open-source software and DIY guides for VR headset eye-tracking. With detailed documentation and affordable solutions using infrared technology, it meets many of our needs. We see great potential in this project as we continue exploring it.
 - 767 stars, last commit 3 months ago, 8 contributors
 - eye-tracking software and DIY instructions for eye-tracking headsets

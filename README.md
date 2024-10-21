@@ -8,7 +8,7 @@ This document is the result of our research on the eye- and head-tracking stuff 
 
 ## Our Personal Highlights
 
-**(OptiKey)[https://github.com/OptiKey/OptiKey]:**
+**[OptiKey](https://github.com/OptiKey/OptiKey):**
 Optikey is an open-source on-screen keyboard specialized for usage with the eyes.
 It provides keyboard layouts in various complexities, from simple ones like having big cards containing phrases like "I am thirsty",
 up to more complex ones like a full keyboard including multi-button presses.
@@ -16,7 +16,7 @@ It also comes with voice-output, mouse controll with double-clicks and scrolling
 a plugin system, heck, there is even a Github-fork with which you can play Minecraft with.
 In short: Optikey is the most perfect on-screen keyboard that we could have think of for our use-case.
 
-**(Pupil-Labs)[https://github.com/pupil-labs]:**
+**[Pupil-Labs](https://github.com/pupil-labs):**
 Pupil-Labs is a company which produces eye-tracking software and hardware. Much of their software is open-source.
 We utilized Pupil-Labs' open-source eye-tracking software for our initial research and found it to be very effective for that purpose.
 It may be way too complicated to use for our end-users, however the configuration capabilities of their software allowed us to tinker around with different cameras very well.
@@ -27,7 +27,7 @@ Unfortunately that makes their products very expensive; The cheapest setup alrea
 And since their documentation for the do-it-yourself-headset is nice to have but lacks in detail and the 3d models (the corresponding shop seems to be down), we needed to find another headset model.
 Still, all in all, Pupil-Labs' software was a great help for our development.
 
-**(EyeTrackVR)[https://docs.eyetrackvr.dev/]**
+**[EyeTrackVR](https://docs.eyetrackvr.dev/)**
 EyeTrackVR provides open-source software and do-it-yourself guides for eye-tracking extension for virtual-reality headsets.
 This project stands out with its detailed documentation and purchase lists.
 Their solutions fulfill many of our needs: affordable, lightweight, close to the eye, using infrared.
@@ -37,7 +37,7 @@ While we just started to dig into this project, we see much potential for us.
 
 ### On-Screen Keyboards
 
-https://github.com/OptiKey/OptiKey (See (Our Personal Highlights)[#our-personal-highlights])
+https://github.com/OptiKey/OptiKey (See [Our Personal Highlights](#our-personal-highlights))
 - 4.3k stars, last commit 3 months ago, 65 contributors
 - On-Screen Keyboard with various modes, optimized for people with disabilities
 - C#
@@ -57,13 +57,13 @@ https://github.com/pasha-liubetski/LINKa.look-windows
 - Not tested yet
 
 ### Wearable-based Eye Trackers
-https://github.com/pupil-labs/pupil (See (Our Personal Highlights)[#our-personal-highlights])
+https://github.com/pupil-labs/pupil (See [Our Personal Highlights](#our-personal-highlights))
 - 1.4k stars, last commit 7 months ago, 42 contributors
 - Eye-tracking for wearables. Very promising
 - Python, OpenCV
 - ✔️ Tested, works exceptionally well. Requires some initial, somewhat tedious configuration. More details in the <a href="#Pupil-Lab">Pupil-Lab</a> section.
 
-https://github.com/EyeTrackVR/EyeTrackVR (See (Our Personal Highlights)[#our-personal-highlights])
+https://github.com/EyeTrackVR/EyeTrackVR (See [Our Personal Highlights](#our-personal-highlights))
 - 767 stars, last commit 3 months ago, 8 contributors
 - eye-tracking software and DIY instructions for eye-tracking headsets
 - Python

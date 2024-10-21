@@ -2,11 +2,42 @@
 
 A list of various eye- and head-tracking software, products, datasets, etc.
 
+**About us:**
+We are `Eyes on (Dis)Abilites` and want to provide paraplegics and ALS patients with low-cost eye-tracking solutions.
+This document is the result of our research on the eye- and head-tracking stuff we found.
+
+## Our Personal Highlights
+
+**(OptiKey)[https://github.com/OptiKey/OptiKey]:**
+Optikey is an open-source on-screen keyboard specialized for usage with the eyes.
+It provides keyboard layouts in various complexities, from simple ones like having big cards containing phrases like "I am thirsty",
+up to more complex ones like a full keyboard including multi-button presses.
+It also comes with voice-output, mouse controll with double-clicks and scrolling, a great support for many eye-trackers,
+a plugin system, heck, there is even a Github-fork with which you can play Minecraft with.
+In short: Optikey is the most perfect on-screen keyboard that we could have think of for our use-case.
+
+**(Pupil-Labs)[https://github.com/pupil-labs]:**
+Pupil-Labs is a company which produces eye-tracking software and hardware. Much of their software is open-source.
+We utilized Pupil-Labs' open-source eye-tracking software for our initial research and found it to be very effective for that purpose.
+It may be way too complicated to use for our end-users, however the configuration capabilities of their software allowed us to tinker around with different cameras very well.
+We also wrote our first OptiKey plugin against the easy-to-use API.
+
+The Berlin-based company has a different and way bigger use-case than we have.
+Unfortunately that makes their products very expensive; The cheapest setup already costs over 3k€.
+And since their documentation for the do-it-yourself-headset is nice to have but lacks in detail and the 3d models (the corresponding shop seems to be down), we needed to find another headset model.
+Still, all in all, Pupil-Labs' software was a great help for our development.
+
+**(EyeTrackVR)[https://docs.eyetrackvr.dev/]**
+EyeTrackVR provides open-source software and do-it-yourself guides for eye-tracking extension for virtual-reality headsets.
+This project stands out with its detailed documentation and purchase lists.
+Their solutions fulfill many of our needs: affordable, lightweight, close to the eye, using infrared.
+While we just started to dig into this project, we see much potential for us.
+
 ## Projects
 
 ### On-Screen Keyboards
 
-https://github.com/OptiKey/OptiKey
+https://github.com/OptiKey/OptiKey (See (Our Personal Highlights)[#our-personal-highlights])
 - 4.3k stars, last commit 3 months ago, 65 contributors
 - On-Screen Keyboard with various modes, optimized for people with disabilities
 - C#
@@ -26,11 +57,17 @@ https://github.com/pasha-liubetski/LINKa.look-windows
 - Not tested yet
 
 ### Wearable-based Eye Trackers
-https://github.com/pupil-labs/pupil
+https://github.com/pupil-labs/pupil (See (Our Personal Highlights)[#our-personal-highlights])
 - 1.4k stars, last commit 7 months ago, 42 contributors
 - Eye-tracking for wearables. Very promising
 - Python, OpenCV
 - ✔️ Tested, works exceptionally well. Requires some initial, somewhat tedious configuration. More details in the <a href="#Pupil-Lab">Pupil-Lab</a> section.
+
+https://github.com/EyeTrackVR/EyeTrackVR (See (Our Personal Highlights)[#our-personal-highlights])
+- 767 stars, last commit 3 months ago, 8 contributors
+- eye-tracking software and DIY instructions for eye-tracking headsets
+- Python
+- not tested yet
 
 https://github.com/esdalmaijer/PyGaze
 - 672 stars, last commit 2 weeks ago, 17 contributors
@@ -208,28 +245,6 @@ https://github.com/hysts/pl_gaze_estimation
 - Python, PyTorch
 - Screen-based
 
-## Projects in Focus
-
-### Pupil-Labs
-Very expensive glasses with integrated eye tracking. Cost: ≥ €2500. However, they come with open-source software (free software too?).
-
-- Website: https://pupil-labs.com
-- Main project: https://github.com/pupil-labs
-- (Minimal) documentation about data from topics: https://docs.pupil-labs.com/core/developer/#pupil-datum-format
-
-#### How to make it start:
-- Python 3.11.9
-- Build and start as described on GitHub. It won't start due to NumPy.
-- Uninstall NumPy, then `pip install numpy==1.26.4`
-- Should now start.
-Why Python 3.11.9? No idea. Newer doesn't work, older doesn't work.
-Why NumPy 1.26.4? The requirements.txt says >=1.20.0. However, NumPy 2.X came out this year, with many changes. 1.26.4 is the latest version in the 1.X series.
-
-#### DIY Guide
-A DIY guide to building the glasses yourself. It's okayish?
-Includes a parts list and 3D models to purchase.
-For non-commercial purposes: https://docs.pupil-labs.com/core/diy/
-
 ## Companies
 - **Tobii**: Market leader in input devices for ALS patients: https://www.tobii.com/
 - **Tobii competitor**: https://www.controlbionics.com/
@@ -315,7 +330,7 @@ Currently recommended by us: [USB GC0308 Kamera Modul 50 Grad 0,3 Millionen Pixe
 ### Night Vision Support:
 - **GC0308** is specifically noted for night vision capabilities.
 
-## Other Cameras and Products to Try:
+### Other Cameras and Products to Try:
 1. [Infrarot-IR Kamera mit einstellbaren IR-LEDs](https://www.amazon.de/APKLVSR-Kompatibel-Kameramodul-Einstellbare-Infrarot-IR-LED-Licht/dp/B0CLGTM3Z8/)
 2. [Adapter Board for Raspberry Pi Camera](https://www.amazon.de/Adafruit-Adapter-Thingy-Raspberry-5785/dp/B0CW22D9DM/)
 3. [Weitwinkel USB Kamera](https://www.amazon.de/USB-Kameramodul-Weitwinkelobjektiv-Sicherheits%C3%BCberwachung-Industrieausr%C3%BCstung-Fahrschreiber/dp/B07S3WHRCP/)
@@ -325,25 +340,17 @@ Currently recommended by us: [USB GC0308 Kamera Modul 50 Grad 0,3 Millionen Pixe
 7. [Raspberry Pi IR Camera Module](https://www.amazon.de/Akozon-Infrarot-LED-Licht-Illuminator-Raspberry-Nachtsicht-Kamera-Modul-default/dp/B07GND2GWL/)
 8. [Harvatek IR Emitter for Night Vision](https://www.conrad.de/de/p/harvatek-ht-170irpj-ir-emitter-850-nm-140-0805-smd-181697.html)
 
-### Recommended Purchases:
 1. [ESP32 Development Board](https://www.amazon.de/APKLVSR-Entwicklungsplatine-Entwicklung-Dual-Core-Entwicklungsplatine-kompatibel/dp/B0CHYCFFWK/)
 2. [GC0308 Camera Module](https://www.amazon.de/s?k=GC0308)
 
-## Other
+## Random Info
 
 - **Flat connectors** and **ESP32** are important; there’s existing firmware that supports face detection.
 - Example: [OV2640 Camera Module for ESP32](https://www.amazon.de/APKLVSR-OV2640-Weitwinkelobjektiv-Kameramodul-Unterst%C3%BCtzt/dp/B0D3DFJL3D/)
 - The lower part contains the FTDI chip or CH340G, acting as the programmer.
-
-### Other Relevant Links:
 - [2MP CMOS Mini Camera](https://www.alibaba.com/product-detail/2MP-CMOS-mini-camera-OV2640-Macro_1600169114277.html)
 - [ESP32 with OpenCV and Robotics](https://randomnerdtutorials.com/esp32-cam-robotics-opencv-autonomous/)
 - [ESP32 Camera GitHub Repo](https://github.com/espressif/esp32-camera)
 - Flat Flexible Cables (FFC) and Flat Printed Cables (FPC) are crucial for these setups: [eBay Listing](https://www.ebay.de/itm/185996798993?srsltid=AfmBOoqUSf9JRRmte3ruND-2X3MxBZHbVKXdKWHfPfrcCuPRUns8XkpV)
-
-### Power Consumption:
 - **OV5640**: 3W is too much for a small portable setup.
-
-### Additional Info:
-- **Valve Index Eye Tracking**:
-  [Hackaday DIY Eye and Face Tracking for Valve Index VR Headset](https://hackaday.com/2024/05/19/diy-eye-and-face-tracking-for-the-valve-index-vr-headset/)
+- **Valve Index Eye Tracking**: [Hackaday DIY Eye and Face Tracking for Valve Index VR Headset](https://hackaday.com/2024/05/19/diy-eye-and-face-tracking-for-the-valve-index-vr-headset/)

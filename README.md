@@ -3,29 +3,33 @@
 A list of various eye- and head-tracking software, products, datasets, etc.
 
 **About us:**
-We are _Eyes on (Dis)Abilites_ and want to provide paraplegics and ALS patients with low-cost eye-tracking solutions.
-This document is the result of our research on the eye- and head-tracking stuff we found.
+We are (Eyes on (Dis)Abilites)[https://gaming.ifb-stiftung.de/eyes-on-disabilities-der-startschuss/] and we want to provide low-cost eye-tracking solutions to paraplegics and ALS patients.
+This document is the result of our research. The focus is mostly on software, hardware, and products, and less on datasets and studies.
 
 # Table of Contents
+- [Projects](#projects)
+   - [On-Screen Keyboards](#on-screen-keyboards)
+   - [Wearable-based Eye Trackers](#wearable-based-eye-trackers)
+   - [Screen-based Eye Trackers](#screen-based-eye-trackers)
+   - [Head-Tracker](#head-tracker)
+- [Companies](#companies)
+- [Commercial Software and Devices for Individuals](#commercial-software-and-devices-for-individuals)
+- [Communities](#communities)
+- [Games](#games)
+- [Awesome Lists](#awesome-lists)
+- [Other Stuff](#other-stuff)
+- [Learning Materials/Videos](#learning-materialsvideos)
+- [Building Instructions](#building-instructions)
+- [Research on cheap Infrared Cameras](#research-on-cheap-infrared-cameras)
+   - [Camera Specs:](#camera-specs)
+   - [Important Keywords:](#important-keywords)
+   - [Relevant Companies:](#relevant-companies)
+   - [Camera Interfaces/Cables:](#camera-interfacescables)
+   - [Similar Sensors:](#similar-sensors)
+   - [Night Vision Support:](#night-vision-support)
+   - [Other Cameras and Products to Try:](#other-cameras-and-products-to-try)
+- [Random Info](#random-info)
 
-- [Awesome Eye Tracking](#awesome-eye-tracking)
-- [Table of Contents](#table-of-contents)
-  - [Projects](#projects)
-    - [On-Screen Keyboards](#on-screen-keyboards)
-    - [Wearable-based Eye Trackers](#wearable-based-eye-trackers)
-    - [Screen-based Eye Trackers](#screen-based-eye-trackers)
-    - [Head-Tracker](#head-tracker)
-    - [Datasets and Training Code](#datasets-and-training-code)
-  - [Companies](#companies)
-  - [Products](#products)
-  - [Communities](#communities)
-  - [Games](#games)
-  - [Awesome Lists](#awesome-lists)
-  - [Other Stuff](#other-stuff)
-  - [Learning Materials/Videos](#learning-materialsvideos)
-  - [Building Instructions](#building-instructions)
-  - [Research on cheap Infrared Cameras](#research-on-cheap-infrared-cameras)
-  - [Random Info](#random-info)
 
 ## Projects
 
@@ -250,44 +254,56 @@ https://github.com/MustafaLotfi/Owleye
 
 ### Head-Tracker
 
-https://github.com/opentrack/opentrack
+https://github.com/opentrack/opentrack ⭐ _Personal Highlight_ ⭐<br>
+_Opentrack is a middleware for various head-tracking inputs and outputs. Some of the inputs are already included within Opentrack and don't require any additional software. We love Opentrack for its effortless usage. With the UDP output we were able to easily test our calibration software with real tracker data without any extra hardware._ 
 
 - 3.6k stars, last commit 1 month ago, 54 contributors
 - Head tracker middleware. Supports many input and output formats and comes pre-installed with some input trackers.
 - C++
 - ✔️ Very good software, particularly useful with UDP output.
 
-### Datasets and Training Code
+https://github.com/AIRLegend/aitrack
 
-https://github.com/CSAILVision/GazeCapture
-
-- 930 stars, last commit 3 years ago, 6 contributors
-- Datasets, training code
-- Python, Matlab
-- Screen-based
-
-https://github.com/hysts/pl_gaze_estimation
-
-- 36 stars, last commit 3 years ago, 1 contributor
-- Datasets, training code
-- Python, PyTorch
-- Screen-based
+- 1.1k stars, last commit  2 years ago, 6 contributors
+- A 6DOF head-tracker, which pushes the data over UDP. Very compatiple with Opentrack.
+- C++
+- ✔️ While a little resource hungry, still very good.
+The output format of the head-tracking data is the same as the one from Opentrack.
+So if you are just interested in the data over UDP, and you don't care about calibrating the data first, you actually don't need Opentrack.
 
 ## Companies
 
-- **Tobii**: Market leader in input devices for ALS patients: https://www.tobii.com/
-- **Tobii competitor**: https://www.controlbionics.com/
-- **Pupil-Labs**: Very expensive glasses with integrated eye tracking. Cost: ≥ €2500. However, open-source software. Also free software? German company: https://pupil-labs.com
-- **Humanelektronik GmbH**: Early 2000s vibes: https://humanelektronik.de/produktkatalog/kommunikation/augensteuerung/23/augensteuerung-seetech-pro-key-15?c=31
-- **Blickshift GmbH**: Software for screen-based eye tracking. Disorganized website: https://www.blickshift.com/
-- **RealEye**: Studies with heat maps, from Poland: https://www.realeye.io/
-- **Xcessity**: From Austria: https://iris.xcessity.at
-- **Eyevido** from Koblenz, acquired by Tobii: https://eyevido.de/en/impressum/
+Tobii AB https://www.tobii.com/:
+- produces: eye-tracking software and hardware, both for health care and for individuals.
+Its subsidiary (Tobii Dynavox AB)[https://www.tobiidynavox.com/] focusses on assistive technology, like tables with integrated eye-tracking software.
+- location: Sweden
+- revenue: [SEK 758 million in 2023](https://a.storyblok.com/f/149538/x/8cfe9a91b4/year-end-report-q4-2023.pdf).
+See more at (Tobii's finance publications)[https://corporate.tobii.com/investors/financial-publications].
 
-## Products
+Pupil-Labs https://pupil-labs.com/:
+- produces: eye-tracking software and wearable hardware, mostly for research applications.
+- location: Germany
 
-- **Tobii Eye Tracker 5**, €279 new, €220 refurbished: https://gaming.tobii.com/product/refurbished-tobii-eye-tracker-5/
-- **PCEye 5** by TobiiDynavox, ~€2500: https://www.rehamedia-shop.de/pceye-5.html
+others:
+- Natural Point, Inc., known for its _TrackIR_ head tracker: https://www.naturalpoint.com/, https://www.trackir.com/
+- Eye Tech Digital Systems, Inc.: https://eyetechds.com
+- Tobii competitor: https://www.controlbionics.com/
+- Humanelektronik GmbH: Early 2000s vibes: https://humanelektronik.de/produktkatalog/kommunikation/augensteuerung/23/augensteuerung-seetech-pro-key-15?c=31
+- Blickshift GmbH: Software for screen-based eye tracking. Disorganized website: https://www.blickshift.com/
+- RealEye: Studies with heat maps, from Poland: https://www.realeye.io/
+- Xcessity: From Austria: https://iris.xcessity.at
+- Eyevido: from Koblenz, acquired by Tobii: https://eyevido.de/en/impressum/
+
+## Commercial Software and Devices for Individuals
+
+A disclaimer: Our goal is to provide cheap or even free and eye-tracking solutions.
+We therefore don't want to encourage you to buy the following listed solutions.
+However, for transparency, we want to present these commercial products we found.
+The list contains the newest version of the products. Their predecessors might still be available.
+
+- Tobii Eye Tracker 5, 279€ new, 220€ refurbished: https://gaming.tobii.com/product/refurbished-tobii-eye-tracker-5/
+- TrackIR 5, 142,47€: https://www.trackir.com/trackir5/
+- BEAM Eye Tracker, 29€: https://beam.eyeware.tech/get-beam/
 
 ## Communities
 

@@ -1,10 +1,10 @@
 # Awesome Eye Tracking
 
-A list of various eye- and head-tracking software, products, datasets, etc.
+A list of various eye- and head-tracking software, products, etc.
 
 **About us:**
 We are (Eyes on (Dis)Abilites)[https://gaming.ifb-stiftung.de/eyes-on-disabilities-der-startschuss/] and we want to provide low-cost eye-tracking solutions to paraplegics and ALS patients.
-This document is the result of our research. The focus is mostly on software, hardware, and products, and less on datasets and studies.
+This document is the result of our research. The focus is mostly on software, hardware, and products, and not on datasets and studies.
 
 # Table of Contents
 - [Projects](#projects)
@@ -275,10 +275,10 @@ So if you are just interested in the data over UDP, and you don't care about cal
 
 Tobii AB https://www.tobii.com/:
 - produces: eye-tracking software and hardware, both for health care and for individuals.
-Its subsidiary (Tobii Dynavox AB)[https://www.tobiidynavox.com/] focusses on assistive technology, like tables with integrated eye-tracking software.
+Its subsidiary [Tobii Dynavox AB](https://www.tobiidynavox.com/) focusses on assistive technology, like tables with integrated eye-tracking software.
 - location: Sweden
 - revenue: [SEK 758 million in 2023](https://a.storyblok.com/f/149538/x/8cfe9a91b4/year-end-report-q4-2023.pdf).
-See more at (Tobii's finance publications)[https://corporate.tobii.com/investors/financial-publications].
+See more at [Tobii's finance publications](https://corporate.tobii.com/investors/financial-publications).
 
 Pupil-Labs https://pupil-labs.com/:
 - produces: eye-tracking software and wearable hardware, mostly for research applications.

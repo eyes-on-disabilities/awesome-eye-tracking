@@ -3,7 +3,7 @@
 A list of various eye- and head-tracking software, products, etc.
 
 **About us:**
-We are (Eyes on (Dis)Abilites)[https://gaming.ifb-stiftung.de/eyes-on-disabilities-der-startschuss/] and we want to provide low-cost eye-tracking solutions to paraplegics and ALS patients.
+We are [Eyes on (Dis)Abilites](https://gaming.ifb-stiftung.de/eyes-on-disabilities-der-startschuss/) and we want to provide low-cost eye-tracking solutions to paraplegics and ALS patients.
 This document is the result of our research. The focus is mostly on software, hardware, and products, and not on datasets and studies.
 
 # Table of Contents
@@ -15,21 +15,11 @@ This document is the result of our research. The focus is mostly on software, ha
 - [Companies](#companies)
 - [Commercial Software and Devices for Individuals](#commercial-software-and-devices-for-individuals)
 - [Communities](#communities)
-- [Games](#games)
+- [Gaming](#gaming)
 - [Awesome Lists](#awesome-lists)
-- [Other Stuff](#other-stuff)
 - [Learning Materials/Videos](#learning-materialsvideos)
-- [Building Instructions](#building-instructions)
-- [Research on cheap Infrared Cameras](#research-on-cheap-infrared-cameras)
-   - [Camera Specs:](#camera-specs)
-   - [Important Keywords:](#important-keywords)
-   - [Relevant Companies:](#relevant-companies)
-   - [Camera Interfaces/Cables:](#camera-interfacescables)
-   - [Similar Sensors:](#similar-sensors)
-   - [Night Vision Support:](#night-vision-support)
-   - [Other Cameras and Products to Try:](#other-cameras-and-products-to-try)
-- [Random Info](#random-info)
-
+- [DIY Hardware](#diy-hardware)
+- [Other Stuff](#other-stuff)
 
 ## Projects
 
@@ -69,7 +59,7 @@ _Pupil-Labs produces open-source eye-tracking software and hardware. Their softw
 - ✔️ Tested, works exceptionally well. Requires some initial, somewhat tedious configuration. More details in the <a href="#Pupil-Lab">Pupil-Lab</a> section.
 
 https://github.com/EyeTrackVR/EyeTrackVR ⭐ _Personal Highlight_ ⭐<br>
-_EyeTrackVR offers open-source software and DIY guides for VR headset eye-tracking. With detailed documentation and affordable solutions using infrared technology, it meets many of our needs. We see great potential in this project as we continue exploring it._
+_EyeTrackVR offers open-source software and DIY guides for VR headset eye-tracking. With detailed documentation and affordable solutions using infrared technology, it meets many if not all of our needs when it comes to head-mounted eye-trackers. We see great potential in this project as we continue exploring it._
 
 - 767 stars, last commit 3 months ago, 8 contributors
 - eye-tracking software and DIY instructions for eye-tracking headsets

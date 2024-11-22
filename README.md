@@ -313,11 +313,11 @@ The list contains the newest version of the products. Their predecessors might s
 - https://aaccommunity.net
 - https://www.specialeffect.org.uk/
 
-## Games
+## Gaming
 
-- **Eye-gaze chess**: https://www.eyegazechess.com/
-- **Eye-build-it (commercial startup nonsense)**: https://www.eye-build-it.de/en/eye-build-it-creator/
-- **Minecraft**, playable with an Optikey keyboard fork: https://www.specialeffect.org.uk/how-we-can-help/eyemine
+- Eye-gaze chess: https://www.eyegazechess.com/
+- EyeMine: An Optikey keyboard fork for playing **Minecraft** with your eyes: https://www.specialeffect.org.uk/how-we-can-help/eyemine
+- OKGO: An Optikey keyboard fork for playing various games like **Portal**: https://github.com/kmcnaught/OKGO
 
 ## Awesome Lists
 
@@ -326,92 +326,18 @@ The list contains the newest version of the products. Their predecessors might s
 - [ResearchGeek's awesome eye tracking list](https://github.com/ResearchGeek/awesome-eye-tracking) (Bad, nearly empty)
 - [Topless' awesome eye tracking list](https://github.com/topless/awesome-eye-tracking) (Bad, few entries, mostly outdated, dead links)
 
+## Learning Materials/Videos
+
+- [Great video for technical beginners](https://www.youtube.com/watch?v=-lmc2-podgQ)
+
+## DIY Hardware
+
+- [Example 1 of a head-mounted camera](https://www.instructables.com/Eye-of-Horus-Open-Source-Eye-Tracking-Assistance/)
+- [Example 2 of a head-mounted camera](https://www.instructables.com/The-EyeWriter/)
+- [Hackaday DIY Eye and Face Tracking for Valve Index VR Headset](https://hackaday.com/2024/05/19/diy-eye-and-face-tracking-for-the-valve-index-vr-headset/)
+
 ## Other Stuff
 
 - **Augmentative and Alternative Communication (AAC)**: https://en.wikipedia.org/wiki/Augmentative_and_alternative_communication
 - iOS18 has eye tracking: https://www.apple.com/newsroom/2024/05/apple-announces-new-accessibility-features-including-eye-tracking/, https://support.apple.com/guide/iphone/iphone-models-compatible-with-ios-18-iphe3fa5df43/ios
 - Windows 10+ reportedly has on-screen functionality for eye tracking. Additional hardware is still required.
-
-## Learning Materials/Videos
-
-- [Great video for technical beginners](https://www.youtube.com/watch?v=-lmc2-podgQ)
-
-## Building Instructions
-
-1. [Eye of Horus - Open Source Eye Tracking Assistance](https://www.instructables.com/Eye-of-Horus-Open-Source-Eye-Tracking-Assistance/)
-   - A DIY open-source eye-tracking assistance system.
-2. [The EyeWriter](https://www.instructables.com/The-EyeWriter/)
-   - A low-cost eye-tracking system designed for creative use, often associated with helping ALS patients draw using eye movement.
-
-## Research on cheap Infrared Cameras
-
-Currently recommended by us: [USB GC0308 Kamera Modul 50 Grad 0,3 Millionen Pixel MJPG/YUY2 Mini Webcam Für Windows/Android](https://de.aliexpress.com/item/1005003643369274.html)
-
-- **Issue**: IR lights are too close together, but the size of the camera is ideal.
-
-### Camera Specs:
-
-- **Sensor**: GC0308, by [GalaxyCore](https://en.gcoreinc.com/)
-- **Resolution**: ~640x480 (low resolution, suitable for IoT applications)
-
-### Important Keywords:
-
-- **Global Shutter**: Essential for accurate eye movement calculations, avoiding distortions.
-  [Learn More](https://en.wikipedia.org/wiki/Rolling_shutter)
-- **Monochrome/Infrared**: Only IR vision is needed, no color capture required.
-
-### Relevant Companies:
-
-- **GalaxyCore**: [Website](https://en.gcoreinc.com/), Shanghai
-- **ArduCam**: [Website](https://www.arducam.com/), Hong Kong, focused on Arduino and Raspberry Pi camera modules
-- **OmniVision**: [Website](https://www.ovt.com/), USA, with a branch in Munich
-- **Leopard Imaging**: [Website](https://leopardimaging.com/), USA
-- **Allied Vision**: [Website](https://www.alliedvision.com/), Germany
-- **ON Semiconductors**: [Website](https://www.onsemi.com/), USA
-
-### Camera Interfaces/Cables:
-
-- **CSI (Camera Serial Interface)**: A standard for connecting camera sensors to boards.
-  [YouTube Explanation](https://www.youtube.com/watch?v=8REu_h7bzHM)
-- **I2C (Inter-Integrated Circuit)**: For communication between cameras and other devices.
-  [YouTube Explanation](https://www.youtube.com/watch?v=IyGwvGzrqp8)
-- **SPI (Serial Peripheral Interface)**: Another communication protocol for peripherals.
-  [YouTube Explanation](https://www.youtube.com/watch?v=IyGwvGzrqp8)
-- **USB with 4-pin JST connector**: A common and simple way to connect small cameras.
-
-### Similar Sensors:
-
-- **OV7670**
-- **MT9V034**
-- **GC0308**
-- **OV5640**
-
-### Night Vision Support:
-
-- **GC0308** is specifically noted for night vision capabilities.
-
-### Other Cameras and Products to Try:
-
-1. [Infrarot-IR Kamera mit einstellbaren IR-LEDs](https://www.amazon.de/APKLVSR-Kompatibel-Kameramodul-Einstellbare-Infrarot-IR-LED-Licht/dp/B0CLGTM3Z8/)
-2. [Adapter Board for Raspberry Pi Camera](https://www.amazon.de/Adafruit-Adapter-Thingy-Raspberry-5785/dp/B0CW22D9DM/)
-3. [Weitwinkel USB Kamera](https://www.amazon.de/USB-Kameramodul-Weitwinkelobjektiv-Sicherheits%C3%BCberwachung-Industrieausr%C3%BCstung-Fahrschreiber/dp/B07S3WHRCP/)
-4. [Makro-IR Kamera](https://www.amazon.de/USB-Kameramodul-USB2-0-Ausgang-Eingebettetes-300000-Pixel-Linse-Makro-Infrarotkameramodul/dp/B0B7874987/)
-5. [Mini Camera Module GC0307](https://www.amazon.de/MicroMaker-Kameras-Kameramodule-Camera-GC0307/dp/B0DGMD1C9L/)
-6. [Autofokus-USB Kamera OV5640](https://www.amazon.de/Kameramodul-OV5640-Autofokus-USB-Kameramodul-LinuxMac/dp/B08L6SYP6G/)
-7. [Raspberry Pi IR Camera Module](https://www.amazon.de/Akozon-Infrarot-LED-Licht-Illuminator-Raspberry-Nachtsicht-Kamera-Modul-default/dp/B07GND2GWL/)
-8. [Harvatek IR Emitter for Night Vision](https://www.conrad.de/de/p/harvatek-ht-170irpj-ir-emitter-850-nm-140-0805-smd-181697.html)
-
-9. [ESP32 Development Board](https://www.amazon.de/APKLVSR-Entwicklungsplatine-Entwicklung-Dual-Core-Entwicklungsplatine-kompatibel/dp/B0CHYCFFWK/)
-10. [GC0308 Camera Module](https://www.amazon.de/s?k=GC0308)
-
-## Random Info
-
-- **Flat connectors** and **ESP32** are important; there’s existing firmware that supports face detection.
-- Example: [OV2640 Camera Module for ESP32](https://www.amazon.de/APKLVSR-OV2640-Weitwinkelobjektiv-Kameramodul-Unterst%C3%BCtzt/dp/B0D3DFJL3D/)
-- The lower part contains the FTDI chip or CH340G, acting as the programmer.
-- [2MP CMOS Mini Camera](https://www.alibaba.com/product-detail/2MP-CMOS-mini-camera-OV2640-Macro_1600169114277.html)
-- [ESP32 with OpenCV and Robotics](https://randomnerdtutorials.com/esp32-cam-robotics-opencv-autonomous/)
-- [ESP32 Camera GitHub Repo](https://github.com/espressif/esp32-camera)
-- Flat Flexible Cables (FFC) and Flat Printed Cables (FPC) are crucial for these setups: [eBay Listing](https://www.ebay.de/itm/185996798993?srsltid=AfmBOoqUSf9JRRmte3ruND-2X3MxBZHbVKXdKWHfPfrcCuPRUns8XkpV)
-- **OV5640**: 3W is too much for a small portable setup.
-- **Valve Index Eye Tracking**: [Hackaday DIY Eye and Face Tracking for Valve Index VR Headset](https://hackaday.com/2024/05/19/diy-eye-and-face-tracking-for-the-valve-index-vr-headset/)

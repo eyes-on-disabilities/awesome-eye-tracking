@@ -262,6 +262,17 @@ _AITrack is a head-tracking software that uses only a simple webcam to accuratel
 The output format of the head-tracking data is the same as the one from Opentrack.
 So if you are just interested in the data over UDP, and you don't care about calibrating the data first, you actually don't need Opentrack.
 
+### Others
+
+https://github.com/eyes-on-disabilities/miranda-eye-tracking-screen-calibrator ⭐ _Personal Highlight_ ⭐<br>
+_Miranda is a GUI tool for calibrating eye and head tracker input to match your screen gaze. It enables seamless integration with other applications, allowing you to use your calibrated tracker data in various ways. For example, you can use Opentrack or Pupil as an input source, calibrate your head rotation to your screen, and output the data as UDP messages. This enables you to control applications like OptiKey with your head movements. Honestly, it's our personal highlight, because we made it._
+
+- 0 stars, last commit last wek, 1 contributor
+- screen calibration tool for eye-trackers and head-trackers
+- Python
+- ✔️ Its still in development, but we were able to bring together a trackers like AITrack or Pupil together with OptiKey.
+
+
 ## Companies
 
 Tobii AB https://www.tobii.com/:

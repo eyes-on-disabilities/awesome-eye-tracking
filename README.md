@@ -252,7 +252,8 @@ _Opentrack is a middleware for various head-tracking inputs and outputs. Some of
 - C++
 - ✔️ Very good software, particularly useful with UDP output.
 
-https://github.com/AIRLegend/aitrack
+https://github.com/AIRLegend/aitrack ⭐ _Personal Highlight_ ⭐<br>
+_AITrack is a head-tracking software that uses only a simple webcam to accurately capture head movements. No additional hardware is required. The software delivers reliable performance even in low-light conditions or when the face is partially obscured, such as by wearing glasses. It requires minimal computing power, allowing it to run smoothly even on older computers. For added flexibility, AITrack can operate on a second device, like a laptop, to send tracking data to the main computer. Even without a webcam, it can be used by integrating smartphones as cameras via the [Droid Cam app](https://play.google.com/store/apps/details?id=com.dev47apps.droidcam). AITrack can also act as an input for [Opentrack](https://github.com/opentrack/opentrack)._
 
 - 1.1k stars, last commit  2 years ago, 6 contributors
 - A 6DOF head-tracker, which pushes the data over UDP. Very compatiple with Opentrack.

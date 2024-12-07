@@ -295,6 +295,7 @@ others:
 - RealEye: Studies with heat maps, from Poland: https://www.realeye.io/
 - Xcessity: From Austria: https://iris.xcessity.at
 - Eyevido: from Koblenz, acquired by Tobii: https://eyevido.de/en/impressum/
+- Rehavista: Assistive Technologies: https://rehavista.de
 
 ## Commercial Software and Devices for Individuals
 

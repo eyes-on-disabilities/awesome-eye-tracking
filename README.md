@@ -3,7 +3,7 @@
 A list of various eye- and head-tracking software, products, etc.
 
 **About us:**
-We are [Eyes on (Dis)Abilites](https://gaming.ifb-stiftung.de/eyes-on-disabilities-der-startschuss/) and we want to provide low-cost eye-tracking solutions to paraplegics and ALS patients.
+We are [Eyes on (Dis)Abilites](https://gaming.ifb-stiftung.de/eyes-on-disabilities-home/) and we want to provide low-cost eye-tracking solutions to paraplegics and ALS patients.
 This document is the result of our research. The focus is mostly on software, hardware, and products, and not on datasets and studies.
 
 # Table of Contents
@@ -306,6 +306,7 @@ The list contains the newest version of the products. Their predecessors might s
 - Tobii Eye Tracker 5, 279€ new, 220€ refurbished: https://gaming.tobii.com/product/refurbished-tobii-eye-tracker-5/
 - TrackIR 5, 142,47€: https://www.trackir.com/trackir5/
 - BEAM Eye Tracker, 29€: https://beam.eyeware.tech/get-beam/
+- EyeTrackVR-Kit, 28€ plus shipment, cameras not included: https://store.eyetrackvr.dev/products/v4-mini-fully-solderless-kit
 
 ## Communities
 
@@ -314,6 +315,10 @@ The list contains the newest version of the products. Their predecessors might s
 - [r/MND](https://old.reddit.com/r/mnd)
 - https://aaccommunity.net
 - https://www.specialeffect.org.uk/
+
+## Help Organizations
+
+- [Deutsche Gesellschaft für Muskelkranke e.V.](https://www.dgm.org/)
 
 ## Gaming
 

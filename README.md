@@ -316,6 +316,12 @@ The list contains the newest version of the products. Their predecessors might s
 - [r/MND](https://old.reddit.com/r/mnd)
 - https://aaccommunity.net
 - https://www.specialeffect.org.uk/
+- On Discord:
+    - [Eyes on (Dis)Abilities (that's us)](https://discord.gg/wqYUgdBDam)
+    - [EyeTrackVR](https://discord.gg/kkXYbVykZX)
+    - [Pupil Labs](https://discord.gg/gKmmGqy)
+    - [Tobii Gaming](https://discord.gg/tobiigaming)
+    - [JEOresearch](discord.gg/CGhv6VnZpD)
 
 ## Help Organizations
 

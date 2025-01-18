@@ -321,7 +321,7 @@ The list contains the newest version of the products. Their predecessors might s
     - [EyeTrackVR](https://discord.gg/kkXYbVykZX)
     - [Pupil Labs](https://discord.gg/gKmmGqy)
     - [Tobii Gaming](https://discord.gg/tobiigaming)
-    - [JEOresearch](discord.gg/CGhv6VnZpD)
+    - [JEOresearch](https://discord.gg/CGhv6VnZpD)
 
 ## Help Organizations
 

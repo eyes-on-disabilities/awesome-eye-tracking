@@ -74,6 +74,12 @@ https://github.com/esdalmaijer/PyGaze
 - Not sure if also works for screen-based tracking
 - ❌ we tried (on Linux) and gave up due to being very beginner-unfriendly. Confusing documentation. At least for us. :(
 
+https://github.com/SummerSigh/TheVrMLEyeToolbox
+- 361 stars, last commit 11 month ago, 4 contributors
+- Toolbox for eye-tracking
+- Python, ASP.NET
+- Not tested yet
+
 https://github.com/YutaItoh/3D-Eye-Tracker
 
 - 296 stars, last commit 8 years ago, 1 contributor

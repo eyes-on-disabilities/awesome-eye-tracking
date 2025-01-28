@@ -348,7 +348,8 @@ The list contains the newest version of the products. Their predecessors might s
 
 ## Learning Materials/Videos
 
-- [Great video for technical beginners](https://www.youtube.com/watch?v=-lmc2-podgQ)
+- Great video for technical beginners: https://www.youtube.com/watch?v=-lmc2-podgQ
+- Jason Orlosky, a channel is about software and DIY projects on virtual reality, computer vision, and artificial intelligence: https://www.youtube.com/@jeoresearch
 
 ## DIY Hardware
 

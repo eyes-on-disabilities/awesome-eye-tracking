@@ -338,6 +338,7 @@ The list contains the newest version of the products. Their predecessors might s
 - Eye-gaze chess: https://www.eyegazechess.com/
 - EyeMine: An Optikey keyboard fork for playing **Minecraft** with your eyes: https://www.specialeffect.org.uk/how-we-can-help/eyemine
 - OKGO: An Optikey keyboard fork for playing various games like **Portal**: https://github.com/kmcnaught/OKGO
+- EyeWriter: a drawing application: https://eyewriter.org/
 
 ## Awesome Lists
 

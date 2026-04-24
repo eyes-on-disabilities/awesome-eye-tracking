@@ -3,7 +3,7 @@
 A list of various eye- and head-tracking software, products, etc.
 
 **About us:**
-We are [Eyes on (Dis)Abilites](https://gaming.ifb-stiftung.de/eyes-on-disabilities-home/) and we want to provide low-cost eye-tracking solutions to paraplegics and ALS patients.
+We are [Eyes on Disabilites](https://eyes-on-disabilities.org/) and we want to provide low-cost eye-tracking solutions to paraplegics and ALS patients.
 This document is the result of our research. The focus is mostly on software, hardware, and products, and not on datasets and studies.
 
 # Table of Contents
